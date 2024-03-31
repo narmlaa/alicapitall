@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.gambar-elegan {
+  max-width: 80%;
+  max-height: 80%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Memberikan efek bayangan untuk memberi kesan elegan */
+  border-radius: 5px; /* Menggunakan sudut melengkung pada gambar untuk memberikan tampilan yang lebih halus */
+  transition: transform 0.3s ease; /* Efek transisi ketika gambar diperbesar saat dihover */
+}
+
+.gambar-elegan:hover {
+  transform: scale(1.1); /* Memperbesar gambar saat dihover */
+}
